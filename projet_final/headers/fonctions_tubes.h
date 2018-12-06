@@ -1,0 +1,10 @@
+void creationPipe(int tube[][2],int n);
+void closeDescripteurFilsFinal(int i, int processNumber, int pipeAnn[][2], int pipePereFils[][2], int pipeFilsPere[2]);
+void closeDescripteurFils(int i, int processNumber,int pipeAnn[][2],int pipePereFils[][2],int pipeFilsPere[2]);
+void envoiFilsFils(int val, int i, int pipeAnn[][2]);
+int receptionFilsFils(int i, int processNumber, int pipeAnn[][2]);
+int lectureDuPere(int i ,int pipePereFils[][2]);
+void ecritureFilsPere(int val, int pipeFilsPere[2]);
+void closeDescripteurPere(int processNumber, int pipePereFils[][2], int pipeFilsPere[2]);
+int lectureDuFils(int pipeFilsPere[2]);
+void ecriturePereFils(int val ,int i , int pipePereFils[][2]);
